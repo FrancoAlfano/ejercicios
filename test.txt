@@ -1,0 +1,4 @@
+Juan Perez,juan@perez.com,contabilidad,10/07/1998,120
+Luis martinez,luis@hotmail.com,contabilidad,22/08/2001,1409
+Erica Sanchez,erisan@gmail.com,informatica,17/12/1989,4333
+H Federer,fede@um.edu.ar,admin,29/02/1999,-700
