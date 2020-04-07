@@ -1,13 +1,16 @@
 #Ejercicio 1
-import sys 
-
-def ejercicio1():
+#!/usr/bin/python
+import sys
+while True:
     leido = sys.stdin.read()
-    lista = leido.split(" ")
-    lista_reversa = [i[::-1] for i in lista]
-    string_reverso = " ".join(lista_reversa)
-
-    print(string_reverso)
-    
-if __name__ == "__main__":
-    ejercicio1()
+    #parte en lineas
+    for renglon in leido.splitlines():
+        #parte linea en palabras
+        for palabra in renglon.split():
+            #muestra al reves palabra[::-1] agrega espacio entre cada una
+            sys.stdout.write(palabra[::-1]+" ")
+        #agrega enter entre cada renglon
+        sys.stdout.write("\n")
+    #valida que termino de leer el stdin   EOF 
+    if len(leido) != 1024:
+        break
