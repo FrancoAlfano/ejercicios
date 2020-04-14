@@ -1,4 +1,4 @@
-#Ejercicio1
+#Ejercicio 1
 
 import argparse
 
